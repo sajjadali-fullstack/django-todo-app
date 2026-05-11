@@ -1,0 +1,18 @@
+# Virtual Environment
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database (Django default)
+db.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+note.txt
