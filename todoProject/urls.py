@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from . import views
+from todo.views import TaskListCreateAPIView, TaskListRetrieveUpdateDestroyAPIView
 
 
 urlpatterns = [
@@ -26,6 +27,12 @@ urlpatterns = [
     # TO-DO 
     path('todo/', include('todo.urls')),
     # path('done/<int:id>/', views.mark_as_done, name='mark_as_done'),
-   
 
+    path('signup/', views.signup_view, name='signup'),
+    path('login/', views.login_view, name='login'),
+    path('logout/', views.logout_view, name='logout'),
+
+
+    path('api/list-api/',TaskListCreateAPIView.as_view()), # bcoz this is a class based
+    path('api/list-api-r-u-d/<int:id>/', TaskListRetrieveUpdateDestroyAPIView.as_view()), # bcoz this is a class based
 ]
