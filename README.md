@@ -48,7 +48,7 @@ A full-stack **To-Do List application** built with **Django**, featuring user au
 
 ## 🚀 Live Demo
 
-🔗 **[Live App on Railway](#)** ← *(link add karo deploy hone ke baad)*
+🔗 **[Live App on Railway](#)** ← 
 
 ---
 
