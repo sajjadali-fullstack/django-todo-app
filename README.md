@@ -10,7 +10,7 @@ Built using **Django (Python)** for the backend, **SQLite** for the database, an
 
 ---
 
-## 🚀 Features
+## Features
 - **Task CRUD:** Create, Read, Update, and Delete tasks easily.
 - **Task Status:** Mark tasks as 'Completed' or 'Pending'.
 - **Status Tracking:** Mark tasks as Pending or Completed.
