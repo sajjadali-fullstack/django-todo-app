@@ -6,7 +6,7 @@
 A professional and efficient web-based **Task Management System** built with Django. A high-performance, responsive web application to streamline your daily productivity.This application allows users to organize their daily tasks, track progress, and manage deadlines effectively.
 
 The application is designed for individuals or teams who want a simple, web-based solution to manage productivity.  
-Built using **Django (Python)** for the backend, **SQLite** for the database, and **HTML/CSS/Bootstrap** for the frontend.
+Built using **Django (Python)** for the backend, **SQLite** for the database, and **HTML,CSS,Bootstrap** for the frontend.
 
 ---
 
