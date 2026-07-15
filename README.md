@@ -6,11 +6,11 @@
 A professional and efficient web-based **Task Management System** built with Django. A high-performance, responsive web application to streamline your daily productivity.This application allows users to organize their daily tasks, track progress, and manage deadlines effectively.
 
 The application is designed for individuals or teams who want a simple, web-based solution to manage productivity.  
-Built using **Django (Python)** for the backend, **SQLite** for the database, and **HTML/CSS/Bootstrap** for the frontend.
+Built using **Django (Python)** for the backend, **SQLite** for the database, and **HTML,CSS,Bootstrap** for the frontend.
 
 ---
 
-## 🚀 Features
+## Features
 - **Task CRUD:** Create, Read, Update, and Delete tasks easily.
 - **Task Status:** Mark tasks as 'Completed' or 'Pending'.
 - **Status Tracking:** Mark tasks as Pending or Completed.
@@ -32,9 +32,90 @@ Built using **Django (Python)** for the backend, **SQLite** for the database, an
 
 ---
 
-## 🔧 Installation
-1. Clone the repo:
-   ```bash
-   git clone [https://github.com/sajjadali-fullstack/task-manager-django.git](https://github.com/sajjadali-fullstack/task-manager-django.git)
 
 
+# ✅ TaskFlow — Django To-Do App with REST API
+
+A full-stack **To-Do List application** built with **Django**, featuring user authentication, per-user task management, and a **Django REST Framework (DRF) API** — deployed on **Railway**.
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-5.x-092E20?logo=django)
+![DRF](https://img.shields.io/badge/DRF-REST_API-red?logo=django)
+![Deploy](https://img.shields.io/badge/Deployed_on-Railway-0B0D0E?logo=railway)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## 🚀 Live Demo
+
+🔗 **[Live App on Railway](#)** ← 
+
+---
+
+## ✨ Features
+
+- 🔐 **User Authentication** — Signup, Login, Logout (Django auth system)
+- 👤 **Per-user Task Isolation** — har user apne hi tasks dekh/edit/delete kar sakta hai
+- ✅ **Task CRUD** — Add, Edit, Mark as Done/Undone, Delete
+- 🌐 **REST API** — DRF-powered endpoints (`ListCreateAPIView`, `RetrieveUpdateDestroyAPIView`)
+- 🎨 Clean, minimal UI with Django templates
+- ☁️ Production-ready deployment config for **Railway**
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer          | Technology                     |
+|----------------|---------------------------------|
+| Backend        | Django, Django REST Framework   |
+| Database       | PostgreSQL (prod) / SQLite (dev)|
+| Auth           | Django built-in Auth system     |
+| Deployment     | Railway, Gunicorn, WhiteNoise   |
+| Frontend       | Django Templates + Bootstrap    |
+
+---
+
+6. Railway auto-deploys on every push 🚀
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint                              | Description                  |
+|--------|----------------------------------------|-------------------------------|
+| GET    | `/api/list-api/`                       | List logged-in user's tasks   |
+| POST   | `/api/list-api/`                       | Create a new task             |
+| GET    | `/api/list-api-r-u-d/<id>/`            | Retrieve a single task        |
+| PUT    | `/api/list-api-r-u-d/<id>/`            | Update a task                 |
+| DELETE | `/api/list-api-r-u-d/<id>/`            | Delete a task                 |
+
+> 🔒 All API endpoints require authentication and return only the logged-in user's tasks.
+
+---
+
+
+## 🗺️ Roadmap
+
+- [ ] Task categories / labels
+- [ ] Due dates + reminders
+- [ ] Dark mode UI
+- [ ] JWT-based API auth for mobile clients
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+[LinkedIn](#) • [GitHub](#) • [Portfolio](#)
