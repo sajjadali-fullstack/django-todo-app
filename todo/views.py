@@ -54,18 +54,3 @@ def delete_task(request, pk):  # Delete Task
     task = get_object_or_404(Task, pk=pk, user=request.user)
     task.delete()
     return redirect('home')
-
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
-from todo.serializers import TaskSerializer
-# Create & See Records 
-
-class TaskListCreateAPIView(ListCreateAPIView):
-    queryset = Task.objects.all()
-    serializer_class = TaskSerializer
-
-# Retrive Update & Destroy
-
-class TaskListRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
-    queryset = Task.objects.all()
-    serializer_class = TaskSerializer
-    lookup_field = 'id'
